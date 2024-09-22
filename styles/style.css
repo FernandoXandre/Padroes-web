@@ -37,6 +37,14 @@ li {
     margin-bottom: 20px;
     position: relative;
 }
+img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
 
 li img {
     border-radius: 50%;
